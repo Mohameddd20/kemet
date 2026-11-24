@@ -1,0 +1,35 @@
+/* KemetOS 1.0 Ultra-Lite Mode (.kemet-lite-mode)
+ * Eliminates GPU compositing blur, heavy box-shadows, and transitions
+ * for locked 60 FPS on 2GB-4GB RAM & Intel HD Graphics / Core i3 systems.
+ */
+
+html.kemet-lite-mode body,
+html.kemet-lite-mode #root {
+  background-color: #070b14 !important;
+}
+
+html.kemet-lite-mode .os-acrylic,
+html.kemet-lite-mode .kemet-glass,
+html.kemet-lite-mode [class*="backdrop-blur"] {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  background-color: rgba(11, 17, 32, 0.96) !important;
+}
+
+html.kemet-lite-mode .os-window-shadow-active,
+html.kemet-lite-mode .os-window-shadow-inactive,
+html.kemet-lite-mode [class*="shadow-"] {
+  box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.25) !important;
+}
+
+html.kemet-lite-mode *,
+html.kemet-lite-mode *::before,
+html.kemet-lite-mode *::after {
+  transition: none !important;
+  animation: none !important;
+}
+
+html.kemet-lite-mode .kemet-wallpaper-img {
+  filter: none !important;
+  transform: none !important;
+}
