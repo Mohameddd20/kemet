@@ -1,0 +1,5 @@
+# KemetOS 1.0 Aggressive ZRAM zstd Swap Configuration
+# Effectively expands 4GB physical RAM to ~6.5GB without hitting slow HDD swap
+ALGO=zstd
+PERCENT=75
+PRIORITY=100

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=KemetOS 1.0 Desktop
+Comment=KemetOS Sovereign Cyber-Pharaonic Spatial Desktop (Openbox + Tauri Shell)
+Exec=/usr/local/bin/kemetos-session.sh
+Type=Application
+DesktopNames=KemetOS

@@ -1,0 +1,28 @@
+[package]
+name = "kemetos-desktop"
+version = "1.0.0"
+description = "KemetOS 1.0 Desktop — Tauri v2 + Rust Native Linux System Shell"
+authors = ["KemetOS"]
+edition = "2021"
+
+[lib]
+name = "kemetos_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sysinfo = "0.33"
+tauri = { version = "2.0", features = ["unstable"] }
+tauri-plugin-fs = "2.0"
+tauri-plugin-shell = "2.0"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

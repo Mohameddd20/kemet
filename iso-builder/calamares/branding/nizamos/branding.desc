@@ -1,0 +1,22 @@
+---
+componentName: nizamos
+
+strings:
+  productName: NizamOS 1.0
+  shortProductName: NizamOS
+  version: 1.0
+  shortVersion: 1.0
+  versionedName: NizamOS 1.0
+  shortVersionedName: NizamOS 1.0
+  bootloaderEntryName: NizamOS
+
+sidebar:
+  expandable: false
+
+style:
+  sidebarBackground: "#090d16"
+  sidebarText: "#e2e8f0"
+  sidebarTextSelect: "#38bdf8"
+  sidebarTextHighlight: "#0284c7"
+
+slideshowAPI: 2

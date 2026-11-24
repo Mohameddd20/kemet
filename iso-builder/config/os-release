@@ -1,0 +1,8 @@
+NAME="KemetOS"
+VERSION="1.0 (Horizon)"
+ID=kemetos
+ID_LIKE=debian
+PRETTY_NAME="KemetOS 1.0 (Debian Bookworm)"
+VERSION_ID="1.0"
+HOME_URL="https://github.com/kemetos/kemetos"
+SUPPORT_URL="https://github.com/kemetos/kemetos/issues"

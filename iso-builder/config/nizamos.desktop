@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=NizamOS Desktop
+Comment=NizamOS Native Desktop Environment (Openbox + Tauri Shell)
+Exec=/usr/local/bin/nizamos-session.sh
+Type=Application
+DesktopNames=NizamOS
