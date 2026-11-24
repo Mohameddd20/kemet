@@ -1,0 +1,6 @@
+{
+  "name": "NizamOS Desktop",
+  "description": "Web desktop environment with Zustand window manager, react-rnd draggable/resizable windows, IndexedDB virtual file system, and modular built-in apps.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
